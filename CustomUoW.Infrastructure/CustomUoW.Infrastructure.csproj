@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CustomUoW.Data\CustomUoW.Data.csproj" />
+    <ProjectReference Include="..\CustomUoW.Domain\CustomUoW.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
